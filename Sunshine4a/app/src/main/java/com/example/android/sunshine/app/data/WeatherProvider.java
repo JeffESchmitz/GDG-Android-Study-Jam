@@ -144,9 +144,7 @@ public class WeatherProvider extends ContentProvider {
         switch (match) {
             // Student: Uncomment and fill out these two cases
 //            case WEATHER_WITH_LOCATION_AND_DATE:
-//                return null;
 //            case WEATHER_WITH_LOCATION:
-//                return null;
             case WEATHER:
                 return WeatherContract.WeatherEntry.CONTENT_TYPE;
             case LOCATION:
